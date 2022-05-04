@@ -14,7 +14,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 7px 20px;
+    padding: 7px 25px;
     position: fixed;
     width: 100vw;
 }
@@ -28,6 +28,24 @@ header{
 
 .logo{
     padding-top: 0.5rem;
+}
+
+.grid-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.grid-pic > a{
+    color: rgb(95 99 104);
+}
+
+.grid-pic > img{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-left: 1.2rem;
 }
 
 .bottom-header{
@@ -59,6 +77,7 @@ nav > ul > li > a{
 main{
     padding-top: 7rem;
     margin: auto 19%;
+    line-height: 24px;
 }
 
 main h2{
@@ -67,4 +86,9 @@ main h2{
 
 main p{
     padding: 1rem 0rem;
+}
+
+main li{
+    padding-left: 16px;
+    padding-top: 12px;
 }
