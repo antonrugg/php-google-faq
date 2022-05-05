@@ -50,23 +50,32 @@
     $navLinks = [
         [
             "text" => "Introduzione",
-            "isActive" => false
+            "isActive" => true,
+            "id" => 0
         ],
         [
             "text" => "Norme sulla privacy",
-            "isActive" => false
+            "isActive" => false,
+            "id" => 1
+
         ],
         [
             "text" => "Termini di servizio",
-            "isActive" => false
+            "isActive" => false,
+            "id" => 2
+
         ],
         [
             "text" => "Tecnologie",
-            "isActive" => false
+            "isActive" => false,
+            "id" => 3
+
         ],
         [
             "text" => "Domande frequenti",
-            "isActive" => false
+            "isActive" => false,
+            "id" => 4
+
         ],
     ] 
 

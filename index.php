@@ -28,7 +28,7 @@
                 <?php
                 include('database.php');
                 foreach ($navLinks as $navLink) {
-                    echo('<li>' . '<a href="#">' . $navLink['text'] . '</a>' . '</li>');
+                    echo('<li class="nav-link-container">' . '<a href="#" class="nav-link">' . $navLink['text'] . '</a>' . '</li>');
                 }
                 ?>
             </ul>
@@ -56,6 +56,6 @@
         ?>
     </main>
 
-    
+    <script src="script.js"></script>
 </body>
 </html>
